@@ -1,7 +1,7 @@
 # Template
 ### Server Only Mod
-Protect offline players from being sieged.
-When any of the castle owner allies is online, the siege can progress as usual,
+Protect offline players from being sieged.\
+When any of the castle owner allies is online, the siege can progress as usual,\
 Siege will also progress as usual if the castle is already being sieged/attacked when all the castle owner & allies goes offline.
 
 ## Installation
