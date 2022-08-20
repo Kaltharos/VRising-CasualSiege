@@ -69,9 +69,9 @@ namespace CasualSiege
         public void InitConfig()
         {
             EnableMod = Config.Bind("Config", "Enable Mod", true, "Enable/disable the mod.");
-            FactorAllies = Config.Bind("Config", "Factor in Ally Status", true, "Include the player allies online status before blocking siege.");
-            MaxAllyCacheAge = Config.Bind("Config", "Max Ally Cache Age", 300, "Max age of the player allies cache in seconds.\n" +
-                "If the cache age is older than specified, the cahce will be renewed.\n" +
+            FactorAllies = Config.Bind("Config", "Factor in Ally Status", true, "Include the besieged player allies online status before blocking siege.");
+            MaxAllyCacheAge = Config.Bind("Config", "Max Ally Cache Age", 300, "Max age of the besieged player allies cache in seconds.\n" +
+                "If the cache age is older than specified, the cache will be renewed.\n" +
                 "Don't set this too short as allies gathering process can slightly impact your server performance.\n" +
                 "This cache is only for allies gathering, their online/offline status is updated instantly.");
         }

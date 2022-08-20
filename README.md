@@ -1,8 +1,10 @@
-# Template
+# CasualSiege
 ### Server Only Mod
 Protect offline players from being sieged.\
 When any of the castle owner allies is online, the siege can progress as usual,\
 Siege will also progress as usual if the castle is already being sieged/attacked when all the castle owner & allies goes offline.
+
+Best not be used together with RPGMods Honor System.
 
 ## Installation
 Copy & paste the `CasualSiege.dll` to `\Server\BepInEx\plugins\` folder.
@@ -24,7 +26,7 @@ Enable/disable the mod.
 Include the player allies online status before blocking siege.
 - `Max Ally Cache Age` [default `300`]\
 Max age of the player allies cache in seconds.\
-If the cache age is older than specified, the cahce will be renewed.\
+If the cache age is older than specified, the cache will be renewed.\
 Don't set this too short as allies gathering process can slightly impact your server performance.\
 This cache is only for allies gathering, their online/offline status is updated instantly.
 
@@ -33,6 +35,9 @@ This cache is only for allies gathering, their online/offline status is updated 
 ## More Information
 <details>
 <summary>Changelog</summary>
+
+`0.0.2`
+- Typo fix in readme & configs
 
 `0.0.1`
 - Initial Release
